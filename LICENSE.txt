@@ -1,0 +1,7 @@
+Copyright (c) 2024 Alessandro Perri
+
+Autorizzazione è concessa a AVIS Comunale Montemarciano di utilizzare questo sito web esclusivamente per scopi non commerciali e gratuiti.
+
+Questa licenza consente ad AVIS di utilizzare, copiare, modificare e distribuire il sito per fini istituzionali e senza scopo di lucro. È proibita la rivendita, la distribuzione o l’uso per qualsiasi scopo commerciale senza il consenso scritto dell'autore.
+
+QUESTO SOFTWARE VIENE FORNITO "COSÌ COM'È" E OGNI GARANZIA È ESPRESSAMENTE NEGATA.
