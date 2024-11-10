@@ -1,0 +1,66 @@
+.avis_monte_icon {
+  width: 200px;
+  height: 85px;
+}
+
+header > nav div > div div a {
+  text-decoration: none;
+  color: #0483dd;
+  font-weight: bold;
+  cursor: pointer;
+  &:hover {
+    transition: background-color 0.5s ease-out;
+    background-color: #f8f9fa;
+    color: #0065ac;
+  }
+  &:active {
+    color: #ff0403;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 12px;
+  }
+}
+
+.carousel-item > img {
+  height: 300px;
+
+  @media screen and (min-width: 350px) {
+    height: 400px;
+  }
+  @media screen and (min-width: 570px) {
+    height: 550px;
+  }
+  @media screen and (min-width: 650px) {
+    height: 580px;
+  }
+  @media screen and (min-width: 770px) {
+    height: 600px;
+  }
+  @media screen and (min-width: 800px) {
+    height: 750px;
+  }
+}
+
+nav > button .navbar-toggler-icon {
+  padding: 18px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,0.7)' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  border: 3px solid #0483dd;
+  border-radius: 10px;
+}
+
+main > section:nth-child(1) {
+  background: #0483dd;
+}
+
+footer {
+  font-size: 12px;
+  a {
+    text-decoration: none;
+    color: #0483dd;
+    &:hover {
+      color: #0065ac;
+    }
+  }
+}
+
+@import "sass/bootstrap.scss";
