@@ -13,7 +13,7 @@ header > nav div > div div a {
     background-color: #f8f9fa;
     color: #0065ac;
   }
-  &:active {
+  &.active {
     color: #ff0403;
   }
   @media screen and (max-width: 767px) {

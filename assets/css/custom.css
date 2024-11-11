@@ -15,7 +15,7 @@ header > nav div > div div a:hover {
   background-color: #f8f9fa;
   color: #0065ac;
 }
-header > nav div > div div a:active {
+header > nav div > div div a.active {
   color: #ff0403;
 }
 @media screen and (max-width: 767px) {
