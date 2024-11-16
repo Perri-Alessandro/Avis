@@ -1,19 +1,27 @@
 @charset "UTF-8";
+#bodyy {
+  background-color: #e9eaef;
+}
+
 .avis_monte_icon {
-  width: 200px;
-  height: 85px;
+  width: 250px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+@media screen and (max-width: 578px) {
+  .avis_monte_icon {
+    width: 180px;
+  }
 }
 
 header > nav div > div div a {
   text-decoration: none;
-  color: #0483dd;
+  color: #0074bd;
   font-weight: bold;
   cursor: pointer;
 }
 header > nav div > div div a:hover {
-  transition: background-color 0.5s ease-out;
-  background-color: #f8f9fa;
-  color: #0065ac;
+  color: #00355c;
 }
 header > nav div > div div a.active {
   color: #ff0403;
@@ -56,12 +64,8 @@ header > nav div > div div a.active {
 nav > button .navbar-toggler-icon {
   padding: 18px;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,0.7)' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  border: 3px solid #0483dd;
+  border: 3px solid #0074bd;
   border-radius: 10px;
-}
-
-main > section:nth-child(1) {
-  background: #0483dd;
 }
 
 footer {
@@ -69,10 +73,10 @@ footer {
 }
 footer a {
   text-decoration: none;
-  color: #0483dd;
+  color: #0074bd;
 }
 footer a:hover {
-  color: #0065ac;
+  color: #004678;
 }
 @media screen and (min-width: 393px) {
   footer {
@@ -93,6 +97,10 @@ footer a:hover {
   footer {
     font-size: 16px;
   }
+}
+
+.transitionnn {
+  transform: scale(0.8);
 }
 
 /*!
