@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
 #bodyy {
   background-color: #edf3ff89;
 }
 
 header nav {
-  > a {
+  > div div {
     .avis_monte_icon {
       width: 250px;
       transform: scale(1);
@@ -40,32 +42,41 @@ header nav {
   }
 }
 
-.hero {
-  background: url(/assets/images/hero_section.JPG);
-  height: 30vh;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
+main {
+  .hero {
+    background: url(https://github.com/Perri-Alessandro/Avis/blob/main/assets/images/hero_section.JPG?raw=true);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    font-family: "Dancing Script", cursive;
+  }
+  > section:nth-child(2) {
+    .carousel-item > img {
+      height: 300px;
+
+      @media screen and (min-width: 350px) {
+        height: 400px;
+      }
+      @media screen and (min-width: 570px) {
+        height: 550px;
+      }
+      @media screen and (min-width: 650px) {
+        height: 580px;
+      }
+      @media screen and (min-width: 770px) {
+        height: 600px;
+      }
+      @media screen and (min-width: 800px) {
+        height: 750px;
+      }
+    }
+  }
 }
 
-.carousel-item > img {
-  height: 300px;
-
-  @media screen and (min-width: 350px) {
-    height: 400px;
-  }
-  @media screen and (min-width: 570px) {
-    height: 550px;
-  }
-  @media screen and (min-width: 650px) {
-    height: 580px;
-  }
-  @media screen and (min-width: 770px) {
-    height: 600px;
-  }
-  @media screen and (min-width: 800px) {
-    height: 750px;
-  }
+#goccia {
+  max-width: 120px;
+  min-width: 95px;
 }
 
 footer {
