@@ -1,35 +1,51 @@
 @charset "UTF-8";
 #bodyy {
-  background-color: #e9eaef;
+  background-color: rgba(237, 243, 255, 0.537254902);
 }
 
-.avis_monte_icon {
+header nav > a .avis_monte_icon {
   width: 250px;
   transform: scale(1);
   transition: transform 0.3s ease;
 }
 @media screen and (max-width: 578px) {
-  .avis_monte_icon {
-    width: 180px;
+  header nav > a .avis_monte_icon {
+    width: 190px;
   }
 }
-
-header > nav div > div div a {
+header nav > a .transitionnn {
+  transform: scale(0.85);
+}
+header nav > button .navbar-toggler-icon {
+  padding: 16px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 116, 189,0.85)' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  border: 3px solid #0074bd;
+  border-radius: 10px;
+}
+header nav div > div div a {
   text-decoration: none;
   color: #0074bd;
   font-weight: bold;
   cursor: pointer;
 }
-header > nav div > div div a:hover {
+header nav div > div div a:hover {
   color: #00355c;
 }
-header > nav div > div div a.active {
+header nav div > div div a.active {
   color: #ff0403;
 }
 @media screen and (max-width: 767px) {
-  header > nav div > div div a {
+  header nav div > div div a {
     font-size: 12px;
   }
+}
+
+.hero {
+  background: url(/assets/images/hero_section.JPG);
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 }
 
 .carousel-item > img {
@@ -59,13 +75,6 @@ header > nav div > div div a.active {
   .carousel-item > img {
     height: 750px;
   }
-}
-
-nav > button .navbar-toggler-icon {
-  padding: 18px;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,0.7)' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  border: 3px solid #0074bd;
-  border-radius: 10px;
 }
 
 footer {
@@ -98,9 +107,14 @@ footer a:hover {
     font-size: 16px;
   }
 }
-
-.transitionnn {
-  transform: scale(0.8);
+@media screen and (max-width: 550px) {
+  footer svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+footer .logoFooter {
+  width: 80%;
 }
 
 /*!
