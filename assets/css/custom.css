@@ -6,6 +6,10 @@
   font-family: "Spectral", serif;
 }
 
+header #gocciaSm {
+  max-width: 100px;
+  min-width: 80px;
+}
 header nav #goccia {
   max-width: 120px;
   min-width: 95px;
