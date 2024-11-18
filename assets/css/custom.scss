@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Damion&display=swap");
 
 #bodyy {
-  background-color: #edf3ffa1;
+  background-color: #e1edff9d;
   font-family: "Spectral", serif;
 }
 
@@ -60,6 +60,7 @@ main {
     > p {
       font-family: "Damion", cursive;
       font-style: italic;
+      visibility: hidden;
     }
     > div.hero {
       background: url(https://github.com/Perri-Alessandro/Avis/blob/main/assets/images/hero_section.JPG?raw=true);

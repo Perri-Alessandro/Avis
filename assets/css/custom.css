@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Damion&display=swap");
 #bodyy {
-  background-color: rgba(237, 243, 255, 0.631372549);
+  background-color: rgba(225, 237, 255, 0.6156862745);
   font-family: "Spectral", serif;
 }
 
@@ -53,6 +53,7 @@ main > section:first-child {
 main > section:first-child > p {
   font-family: "Damion", cursive;
   font-style: italic;
+  visibility: hidden;
 }
 main > section:first-child > div.hero {
   background: url(https://github.com/Perri-Alessandro/Avis/blob/main/assets/images/hero_section.JPG?raw=true);
