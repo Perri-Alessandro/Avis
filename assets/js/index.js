@@ -23,11 +23,11 @@ let scriviHero = document.addEventListener("DOMContentLoaded", () => {
   preparaText(topElement, "Io Dono Sangue...");
   preparaText(bottomElement, "Non So Per Chi, Ma So Perchè!");
 
-  digita(topElement, "Io Dono Sangue...", 0);
+  setTimeout(() => digita(topElement, "Io Dono Sangue...", 0), 320);
 
   setTimeout(
     () => digita(bottomElement, "Non So Per Chi, Ma So Perchè!", 0),
-    2100
+    2400
   );
 });
 
