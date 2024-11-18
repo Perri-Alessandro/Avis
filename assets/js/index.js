@@ -3,7 +3,7 @@ let scriviHero = document.addEventListener("DOMContentLoaded", () => {
   const bottomElement = document.getElementById("heroP2");
 
   const preparaText = (element, text) => {
-    element.textContent = ""; // Svuota il testo esistente, lasciato solo per
+    element.textContent = ""; // Svuota il testo esistente, lasciato solo per spazio elemento in pagina
     text.split("").forEach((char) => {
       const span = document.createElement("span");
       span.textContent = char;
