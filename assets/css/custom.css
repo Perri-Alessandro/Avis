@@ -54,6 +54,7 @@ main > section:first-child > p {
   font-family: "Damion", cursive;
   font-style: italic;
   visibility: hidden;
+  color: #0074bd;
 }
 main > section:first-child > div.hero {
   background: url(https://github.com/Perri-Alessandro/Avis/blob/main/assets/images/hero_section.JPG?raw=true);
