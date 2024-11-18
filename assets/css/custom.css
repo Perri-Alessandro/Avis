@@ -62,31 +62,31 @@ main > section:first-child > div.hero {
   background-size: contain;
   background-position: center center;
 }
-main > section:nth-child(2) .carousel-item > img {
+main > section:nth-child(3) .carousel-item > img {
   height: 300px;
 }
 @media screen and (min-width: 350px) {
-  main > section:nth-child(2) .carousel-item > img {
+  main > section:nth-child(3) .carousel-item > img {
     height: 400px;
   }
 }
 @media screen and (min-width: 570px) {
-  main > section:nth-child(2) .carousel-item > img {
+  main > section:nth-child(3) .carousel-item > img {
     height: 550px;
   }
 }
 @media screen and (min-width: 650px) {
-  main > section:nth-child(2) .carousel-item > img {
+  main > section:nth-child(3) .carousel-item > img {
     height: 580px;
   }
 }
 @media screen and (min-width: 770px) {
-  main > section:nth-child(2) .carousel-item > img {
+  main > section:nth-child(3) .carousel-item > img {
     height: 600px;
   }
 }
 @media screen and (min-width: 800px) {
-  main > section:nth-child(2) .carousel-item > img {
+  main > section:nth-child(3) .carousel-item > img {
     height: 750px;
   }
 }
