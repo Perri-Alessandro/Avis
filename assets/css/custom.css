@@ -78,10 +78,15 @@ main > section:first-child > p {
 }
 main > section:first-child > div.hero {
   background: url(https://github.com/Perri-Alessandro/Avis/blob/main/assets/images/hero_section.JPG?raw=true);
-  height: 22vh;
+  height: 26vh;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
+}
+@media screen and (min-width: 400px) {
+  main > section:first-child > div.hero {
+    height: 35vh;
+  }
 }
 main > section:nth-child(3) .carousel-item > img {
   height: 300px;
@@ -153,6 +158,11 @@ footer a:hover {
 }
 footer .logoFooter {
   width: 80%;
+}
+@media screen and (max-width: 550px) {
+  footer div:last-child > div > a {
+    font-size: 13px;
+  }
 }
 
 /*!

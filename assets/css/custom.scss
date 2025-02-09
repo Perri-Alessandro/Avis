@@ -79,7 +79,10 @@ main {
     }
     > div.hero {
       background: url(https://github.com/Perri-Alessandro/Avis/blob/main/assets/images/hero_section.JPG?raw=true);
-      height: 22vh;
+      height: 26vh;
+      @media screen and (min-width: 400px) {
+        height: 35vh;
+      }
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center center;
@@ -139,6 +142,11 @@ footer {
   }
   .logoFooter {
     width: 80%;
+  }
+  div:last-child > div > a {
+    @media screen and (max-width: 550px) {
+      font-size: 13px;
+    }
   }
 }
 
