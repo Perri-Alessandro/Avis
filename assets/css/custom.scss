@@ -3,66 +3,72 @@
 #bodyy {
   background-color: #e1edff9d;
   font-family: "Spectral", serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-header nav {
-  #goccia {
-    max-width: 120px;
-    min-width: 95px;
-  }
-  > div div {
-    .avis_monte_icon {
-      width: 250px;
-      transform: scale(1);
-      transition: transform 0.3s ease;
-      @media screen and (max-width: 578px) {
-        width: 190px;
+header {
+  nav {
+    #goccia {
+      max-width: 120px;
+      min-width: 95px;
+    }
+    > div div {
+      .avis_monte_icon {
+        width: 250px;
+        transform: scale(1);
+        transition: transform 0.3s ease;
+        @media screen and (max-width: 578px) {
+          width: 190px;
+        }
+      }
+      .transitionnn {
+        transform: scale(0.85);
       }
     }
-    .transitionnn {
-      transform: scale(0.85);
-    }
-  }
 
-  > button .navbar-toggler-icon {
-    padding: 16px;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 116, 189,0.75)' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    border: 3px solid #0074bd;
-    border-radius: 10px;
-  }
-  div > div div a {
-    text-decoration: none;
-    color: #0074bd;
-    font-weight: bold;
-    cursor: pointer;
-    &:hover {
-      color: #00355c;
+    > button .navbar-toggler-icon {
+      padding: 16px;
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 116, 189,0.75)' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      border: 3px solid #0074bd;
+      border-radius: 10px;
     }
-    &.active {
-      color: #ff0403;
+    div > div div a {
+      text-decoration: none;
+      color: #0074bd;
+      font-weight: bold;
+      cursor: pointer;
+      &:hover {
+        color: #00355c;
+      }
+      &.active {
+        color: #ff0403;
+      }
+      @media screen and (max-width: 767px) {
+        font-size: 12px;
+      }
     }
-    @media screen and (max-width: 767px) {
-      font-size: 12px;
-    }
-  }
-  #navbarNav > div {
-    margin-right: 6px;
-    @media screen and (min-width: 400px) {
-      margin-right: 13px;
-    }
-    @media screen and (min-width: 500px) {
-      margin-right: 19px;
-    }
-    div a {
-      border-bottom: 2px solid #d800006b;
-      @media screen and (min-width: 576px) {
-        border-style: none;
+    #navbarNav > div {
+      margin-right: 6px;
+      @media screen and (min-width: 400px) {
+        margin-right: 13px;
+      }
+      @media screen and (min-width: 500px) {
+        margin-right: 19px;
+      }
+      div a {
+        border-bottom: 2px solid #d800006b;
+        @media screen and (min-width: 576px) {
+          border-style: none;
+        }
       }
     }
   }
 }
 
 main {
+  flex: 1;
   > section:first-child {
     background: linear-gradient(
       to bottom,
