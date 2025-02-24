@@ -93,7 +93,31 @@ main {
       background-position: center center;
     }
   }
-  > section:nth-child(3) {
+  > section:nth-child(2) {
+    div > div > a {
+      text-decoration: none;
+      color: white;
+      text-shadow: 0 0 6px black;
+      background-color: #0074bd;
+      border: 3px solid #f10000;
+      @media screen and (max-width: 330px) {
+        font-size: 65%;
+      }
+      @media screen and (min-width: 331px) and (max-width: 380px) {
+        font-size: 75%;
+      }
+      @media screen and (min-width: 381px) and (max-width: 450px) {
+        font-size: 85%;
+      }
+      transform: scale(1);
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        background-color: #004672;
+        transform: scale(1.1) rotate(2deg);
+      }
+    }
+  }
+  > section:nth-child(4) {
     .carousel-item > img {
       height: 300px;
       @media screen and (min-width: 350px) {
