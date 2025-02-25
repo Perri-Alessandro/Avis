@@ -212,14 +212,17 @@ main {
   flex: 1;
 }
 main > section:first-child {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 10%, white 90%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #fefefe 6%, #fefefe 94%, rgba(255, 255, 255, 0) 100%);
 }
-main > section:first-child > p {
+main > section:first-child #heroDesktop {
+  display: none;
+}
+main > section:first-child p {
   font-family: "Damion", cursive;
   font-style: italic;
   color: #0074bd;
 }
-main > section:first-child > div.hero {
+main > section:first-child div.hero {
   background: url("../images/hero_section.webp");
   height: 26vh;
   background-repeat: no-repeat;
@@ -227,9 +230,21 @@ main > section:first-child > div.hero {
   background-position: center center;
 }
 @media screen and (min-width: 400px) {
-  main > section:first-child > div.hero {
+  main > section:first-child div.hero {
     height: 35vh;
   }
+}
+@media screen and (min-width: 851px) {
+  main > section:first-child div.hero {
+    height: 30vh;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 85%, rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 85%, rgba(0, 0, 0, 0) 100%);
+  }
+}
+main > section:nth-child(2) {
+  border-top: 4px solid rgba(255, 251, 0, 0.177);
+  border-bottom: 4px solid rgba(255, 251, 0, 0.177);
+  border-radius: 10%;
 }
 main > section:nth-child(2) div > div > a {
   text-decoration: none;
