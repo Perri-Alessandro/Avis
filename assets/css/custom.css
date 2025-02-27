@@ -145,84 +145,82 @@ table {
   display: flex;
   flex-direction: column;
 }
-
-header nav #goccia {
+#bodyy header nav #goccia {
   max-width: 120px;
   min-width: 95px;
 }
-header nav > div div .avis_monte_icon {
+#bodyy header nav > div div .avis_monte_icon {
   width: 250px;
   transform: scale(1);
   transition: transform 0.3s ease;
 }
 @media screen and (max-width: 578px) {
-  header nav > div div .avis_monte_icon {
+  #bodyy header nav > div div .avis_monte_icon {
     width: 190px;
   }
 }
-header nav > div div .transitionnn {
+#bodyy header nav > div div .transitionnn {
   transform: scale(0.85);
 }
-header nav > button .navbar-toggler-icon {
+#bodyy header nav > button .navbar-toggler-icon {
   padding: 16px;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 116, 189,0.75)' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   border: 3px solid #0074bd;
   border-radius: 10px;
 }
-header nav div > div div a {
+#bodyy header nav div > div div a {
   text-decoration: none;
   color: #0074bd;
   font-weight: bold;
   cursor: pointer;
 }
-header nav div > div div a:hover {
+#bodyy header nav div > div div a:hover {
   color: #00355c;
 }
-header nav div > div div a.active {
+#bodyy header nav div > div div a.active {
   color: #ff0403;
 }
 @media screen and (max-width: 767px) {
-  header nav div > div div a {
+  #bodyy header nav div > div div a {
     font-size: 12px;
   }
 }
-header nav #navbarNav > div {
+#bodyy header nav #navbarNav > div {
   margin-right: 6px;
 }
 @media screen and (min-width: 400px) {
-  header nav #navbarNav > div {
+  #bodyy header nav #navbarNav > div {
     margin-right: 13px;
   }
 }
 @media screen and (min-width: 500px) {
-  header nav #navbarNav > div {
+  #bodyy header nav #navbarNav > div {
     margin-right: 19px;
   }
 }
-header nav #navbarNav > div div a {
+#bodyy header nav #navbarNav > div div a {
   border-bottom: 2px solid rgba(216, 0, 0, 0.4196078431);
 }
 @media screen and (min-width: 576px) {
-  header nav #navbarNav > div div a {
+  #bodyy header nav #navbarNav > div div a {
     border-style: none;
   }
 }
-
-main {
+#bodyy main {
   flex: 1;
 }
-main > section:first-child {
+#bodyy main > section:first-child {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #fefefe 6%, #fefefe 94%, rgba(255, 255, 255, 0) 100%);
 }
-main > section:first-child #heroDesktop {
+#bodyy main > section:first-child #heroDesktop {
   display: none;
 }
-main > section:first-child p {
+#bodyy main > section:first-child p {
   font-family: "Damion", cursive;
   font-style: italic;
   color: #0074bd;
 }
-main > section:first-child div.hero {
+#bodyy main > section:first-child div.hero {
   background: url("../images/hero_section.webp");
   height: 26vh;
   background-repeat: no-repeat;
@@ -230,23 +228,23 @@ main > section:first-child div.hero {
   background-position: center center;
 }
 @media screen and (min-width: 400px) {
-  main > section:first-child div.hero {
+  #bodyy main > section:first-child div.hero {
     height: 35vh;
   }
 }
 @media screen and (min-width: 851px) {
-  main > section:first-child div.hero {
+  #bodyy main > section:first-child div.hero {
     height: 30vh;
     -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 85%, rgba(0, 0, 0, 0) 100%);
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 85%, rgba(0, 0, 0, 0) 100%);
   }
 }
-main > section:nth-child(2) {
+#bodyy main > .secondSectHome {
   border-top: 4px solid rgba(255, 251, 0, 0.177);
   border-bottom: 4px solid rgba(255, 251, 0, 0.177);
   border-radius: 10%;
 }
-main > section:nth-child(2) div > div > a {
+#bodyy main > .secondSectHome div > div > a {
   text-decoration: none;
   color: white;
   text-shadow: 0 0 6px black;
@@ -256,97 +254,96 @@ main > section:nth-child(2) div > div > a {
   transition: all 0.3s ease-in-out;
 }
 @media screen and (max-width: 330px) {
-  main > section:nth-child(2) div > div > a {
+  #bodyy main > .secondSectHome div > div > a {
     font-size: 65%;
   }
 }
 @media screen and (min-width: 331px) and (max-width: 380px) {
-  main > section:nth-child(2) div > div > a {
+  #bodyy main > .secondSectHome div > div > a {
     font-size: 75%;
   }
 }
 @media screen and (min-width: 381px) and (max-width: 450px) {
-  main > section:nth-child(2) div > div > a {
+  #bodyy main > .secondSectHome div > div > a {
     font-size: 85%;
   }
 }
-main > section:nth-child(2) div > div > a:hover {
+#bodyy main > .secondSectHome div > div > a:hover {
   background-color: #004672;
   transform: scale(1.1) rotate(2deg);
 }
-main > section:nth-child(4) .carousel-item > img {
+#bodyy main > section:nth-child(4) .carousel-item > img {
   height: 300px;
 }
 @media screen and (min-width: 350px) {
-  main > section:nth-child(4) .carousel-item > img {
+  #bodyy main > section:nth-child(4) .carousel-item > img {
     height: 400px;
   }
 }
 @media screen and (min-width: 570px) {
-  main > section:nth-child(4) .carousel-item > img {
+  #bodyy main > section:nth-child(4) .carousel-item > img {
     height: 550px;
   }
 }
 @media screen and (min-width: 650px) {
-  main > section:nth-child(4) .carousel-item > img {
+  #bodyy main > section:nth-child(4) .carousel-item > img {
     height: 580px;
   }
 }
 @media screen and (min-width: 770px) {
-  main > section:nth-child(4) .carousel-item > img {
+  #bodyy main > section:nth-child(4) .carousel-item > img {
     height: 600px;
   }
 }
 @media screen and (min-width: 800px) {
-  main > section:nth-child(4) .carousel-item > img {
+  #bodyy main > section:nth-child(4) .carousel-item > img {
     height: 750px;
   }
 }
-main .new-bg-danger {
+#bodyy main .new-bg-danger {
   background: #f10000;
 }
-
-footer {
+#bodyy footer {
   font-size: 10px;
 }
-footer a {
+#bodyy footer a {
   text-decoration: none;
   color: #0074bd;
 }
-footer a:hover {
+#bodyy footer a:hover {
   color: #004678;
 }
 @media screen and (min-width: 393px) {
-  footer {
+  #bodyy footer {
     font-size: 11px;
   }
 }
 @media screen and (min-width: 425px) {
-  footer {
+  #bodyy footer {
     font-size: 12px;
   }
 }
 @media screen and (min-width: 550px) {
-  footer {
+  #bodyy footer {
     font-size: 14px;
   }
 }
 @media screen and (min-width: 1100px) {
-  footer {
+  #bodyy footer {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 550px) {
-  footer svg {
+  #bodyy footer svg {
     width: 18px;
     height: 18px;
   }
 }
-footer .logoFooter {
+#bodyy footer .logoFooter {
   width: 80%;
 }
 @media screen and (max-width: 550px) {
-  footer div:last-child > div > a {
+  #bodyy footer div:last-child > div > a {
     font-size: 13px;
   }
 }

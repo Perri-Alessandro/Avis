@@ -6,200 +6,199 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
 
-header {
-  nav {
-    #goccia {
-      max-width: 120px;
-      min-width: 95px;
+  header {
+    nav {
+      #goccia {
+        max-width: 120px;
+        min-width: 95px;
+      }
+      > div div {
+        .avis_monte_icon {
+          width: 250px;
+          transform: scale(1);
+          transition: transform 0.3s ease;
+          @media screen and (max-width: 578px) {
+            width: 190px;
+          }
+        }
+        .transitionnn {
+          transform: scale(0.85);
+        }
+      }
+
+      > button .navbar-toggler-icon {
+        padding: 16px;
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 116, 189,0.75)' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        border: 3px solid #0074bd;
+        border-radius: 10px;
+      }
+      div > div div a {
+        text-decoration: none;
+        color: #0074bd;
+        font-weight: bold;
+        cursor: pointer;
+        &:hover {
+          color: #00355c;
+        }
+        &.active {
+          color: #ff0403;
+        }
+        @media screen and (max-width: 767px) {
+          font-size: 12px;
+        }
+      }
+      #navbarNav > div {
+        margin-right: 6px;
+        @media screen and (min-width: 400px) {
+          margin-right: 13px;
+        }
+        @media screen and (min-width: 500px) {
+          margin-right: 19px;
+        }
+        div a {
+          border-bottom: 2px solid #d800006b;
+          @media screen and (min-width: 576px) {
+            border-style: none;
+          }
+        }
+      }
     }
-    > div div {
-      .avis_monte_icon {
-        width: 250px;
+  }
+
+  main {
+    flex: 1;
+    > section:first-child {
+      #heroDesktop {
+        display: none;
+      }
+      background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0) 0%,
+        #fefefe 6%,
+        #fefefe 94%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      p {
+        font-family: "Damion", cursive;
+        font-style: italic;
+        color: #0074bd;
+      }
+      div.hero {
+        background: url("../images/hero_section.webp");
+        height: 26vh;
+        @media screen and (min-width: 400px) {
+          height: 35vh;
+        }
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        @media screen and (min-width: 851px) {
+          height: 30vh;
+          -webkit-mask-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 1) 15%,
+            rgba(0, 0, 0, 1) 85%,
+            rgba(0, 0, 0, 0) 100%
+          );
+          mask-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 1) 15%,
+            rgba(0, 0, 0, 1) 85%,
+            rgba(0, 0, 0, 0) 100%
+          );
+        }
+      }
+    }
+    > .secondSectHome {
+      border-top: 4px solid rgba(255, 251, 0, 0.177);
+      border-bottom: 4px solid rgba(255, 251, 0, 0.177);
+      border-radius: 10%;
+      div > div > a {
+        text-decoration: none;
+        color: white;
+        text-shadow: 0 0 6px black;
+        background-color: #0074bd;
+        border: 3px solid #f10000;
+        @media screen and (max-width: 330px) {
+          font-size: 65%;
+        }
+        @media screen and (min-width: 331px) and (max-width: 380px) {
+          font-size: 75%;
+        }
+        @media screen and (min-width: 381px) and (max-width: 450px) {
+          font-size: 85%;
+        }
         transform: scale(1);
-        transition: transform 0.3s ease;
-        @media screen and (max-width: 578px) {
-          width: 190px;
-        }
-      }
-      .transitionnn {
-        transform: scale(0.85);
-      }
-    }
-
-    > button .navbar-toggler-icon {
-      padding: 16px;
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 116, 189,0.75)' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-      border: 3px solid #0074bd;
-      border-radius: 10px;
-    }
-    div > div div a {
-      text-decoration: none;
-      color: #0074bd;
-      font-weight: bold;
-      cursor: pointer;
-      &:hover {
-        color: #00355c;
-      }
-      &.active {
-        color: #ff0403;
-      }
-      @media screen and (max-width: 767px) {
-        font-size: 12px;
-      }
-    }
-    #navbarNav > div {
-      margin-right: 6px;
-      @media screen and (min-width: 400px) {
-        margin-right: 13px;
-      }
-      @media screen and (min-width: 500px) {
-        margin-right: 19px;
-      }
-      div a {
-        border-bottom: 2px solid #d800006b;
-        @media screen and (min-width: 576px) {
-          border-style: none;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          background-color: #004672;
+          transform: scale(1.1) rotate(2deg);
         }
       }
     }
+    > section:nth-child(4) {
+      .carousel-item > img {
+        height: 300px;
+        @media screen and (min-width: 350px) {
+          height: 400px;
+        }
+        @media screen and (min-width: 570px) {
+          height: 550px;
+        }
+        @media screen and (min-width: 650px) {
+          height: 580px;
+        }
+        @media screen and (min-width: 770px) {
+          height: 600px;
+        }
+        @media screen and (min-width: 800px) {
+          height: 750px;
+        }
+      }
+    }
+    .new-bg-danger {
+      background: #f10000;
+    }
   }
-}
 
-main {
-  flex: 1;
-  > section:first-child {
-    #heroDesktop {
-      display: none;
-    }
-    background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0) 0%,
-      #fefefe 6%,
-      #fefefe 94%,
-      rgba(255, 255, 255, 0) 100%
-    );
-    p {
-      font-family: "Damion", cursive;
-      font-style: italic;
-      color: #0074bd;
-    }
-    div.hero {
-      background: url("../images/hero_section.webp");
-      height: 26vh;
-      @media screen and (min-width: 400px) {
-        height: 35vh;
-      }
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center center;
-      @media screen and (min-width: 851px) {
-        height: 30vh;
-        -webkit-mask-image: linear-gradient(
-          to bottom,
-          rgba(0, 0, 0, 0) 0%,
-          rgba(0, 0, 0, 1) 15%,
-          rgba(0, 0, 0, 1) 85%,
-          rgba(0, 0, 0, 0) 100%
-        );
-        mask-image: linear-gradient(
-          to bottom,
-          rgba(0, 0, 0, 0) 0%,
-          rgba(0, 0, 0, 1) 15%,
-          rgba(0, 0, 0, 1) 85%,
-          rgba(0, 0, 0, 0) 100%
-        );
-      }
-    }
-  }
-  > section:nth-child(2) {
-    border-top: 4px solid rgba(255, 251, 0, 0.177);
-    border-bottom: 4px solid rgba(255, 251, 0, 0.177);
-    border-radius: 10%;
-    div > div > a {
+  footer {
+    a {
       text-decoration: none;
-      color: white;
-      text-shadow: 0 0 6px black;
-      background-color: #0074bd;
-      border: 3px solid #f10000;
-      @media screen and (max-width: 330px) {
-        font-size: 65%;
-      }
-      @media screen and (min-width: 331px) and (max-width: 380px) {
-        font-size: 75%;
-      }
-      @media screen and (min-width: 381px) and (max-width: 450px) {
-        font-size: 85%;
-      }
-      transform: scale(1);
-      transition: all 0.3s ease-in-out;
+      color: #0074bd;
       &:hover {
-        background-color: #004672;
-        transform: scale(1.1) rotate(2deg);
+        color: #004678;
       }
     }
-  }
-  > section:nth-child(4) {
-    .carousel-item > img {
-      height: 300px;
-      @media screen and (min-width: 350px) {
-        height: 400px;
-      }
-      @media screen and (min-width: 570px) {
-        height: 550px;
-      }
-      @media screen and (min-width: 650px) {
-        height: 580px;
-      }
-      @media screen and (min-width: 770px) {
-        height: 600px;
-      }
-      @media screen and (min-width: 800px) {
-        height: 750px;
+    font-size: 10px;
+    @media screen and (min-width: 393px) {
+      font-size: 11px;
+    }
+    @media screen and (min-width: 425px) {
+      font-size: 12px;
+    }
+    @media screen and (min-width: 550px) {
+      font-size: 14px;
+    }
+    @media screen and (min-width: 1100px) {
+      font-size: 16px;
+    }
+    svg {
+      @media screen and (max-width: 550px) {
+        width: 18px;
+        height: 18px;
       }
     }
-  }
-  .new-bg-danger {
-    background: #f10000;
-  }
-}
-
-footer {
-  a {
-    text-decoration: none;
-    color: #0074bd;
-    &:hover {
-      color: #004678;
+    .logoFooter {
+      width: 80%;
     }
-  }
-  font-size: 10px;
-  @media screen and (min-width: 393px) {
-    font-size: 11px;
-  }
-  @media screen and (min-width: 425px) {
-    font-size: 12px;
-  }
-  @media screen and (min-width: 550px) {
-    font-size: 14px;
-  }
-  @media screen and (min-width: 1100px) {
-    font-size: 16px;
-  }
-  svg {
-    @media screen and (max-width: 550px) {
-      width: 18px;
-      height: 18px;
-    }
-  }
-  .logoFooter {
-    width: 80%;
-  }
-  div:last-child > div > a {
-    @media screen and (max-width: 550px) {
-      font-size: 13px;
+    div:last-child > div > a {
+      @media screen and (max-width: 550px) {
+        font-size: 13px;
+      }
     }
   }
 }
-
 @import "sass/bootstrap.scss";

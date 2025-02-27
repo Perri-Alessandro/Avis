@@ -4,9 +4,14 @@ const mobileTopElement = document.querySelector("#heroMobile .heroP1");
 const mobileBottomElement = document.querySelector("#heroMobile .heroP2");
 const desktopTopElement = document.querySelector("#heroDesktop .heroP1");
 const desktopBottomElement = document.querySelector("#heroDesktop .heroP2");
+let currentMode = "";
 
 const updateHeroVisibility = () => {
   const screenWidth = window.innerWidth;
+  let newMode = screenWidth <= 850 ? "mobile" : "desktop";
+
+  if (newMode === currentMode) return;
+  currentMode = newMode;
 
   let topElement, bottomElement;
   if (screenWidth <= 850) {
@@ -31,22 +36,24 @@ const updateHeroVisibility = () => {
     });
   };
 
-  const digita = (element, text, index = 0) => {
+  const digita = (element, index = 0, callback = null) => {
     const spans = element.querySelectorAll("span");
     if (index < spans.length) {
       spans[index].style.visibility = "visible";
-      setTimeout(() => digita(element, text, index + 1), 110);
+      setTimeout(() => digita(element, index + 1, callback), 110);
+    } else if (callback) {
+      setTimeout(callback, 300);
     }
   };
 
   preparaText(topElement, "Io Dono Sangue...");
   preparaText(bottomElement, "Non So Per Chi, Ma So Perchè!");
 
-  setTimeout(() => digita(topElement, "Io Dono Sangue...", 0), 320);
-  setTimeout(
-    () => digita(bottomElement, "Non So Per Chi, Ma So Perchè!", 0),
-    2400
-  );
+  setTimeout(() => {
+    digita(topElement, 0, () => {
+      digita(bottomElement, 0);
+    });
+  }, 320);
 };
 
 window.addEventListener("load", updateHeroVisibility);
