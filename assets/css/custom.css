@@ -302,6 +302,14 @@ table {
 }
 #bodyy main .new-bg-danger {
   background: #f10000;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+#bodyy main .bg-card1 {
+  background-color: #0074bd;
+}
+#bodyy main .bg-card2 {
+  background-color: #003e65;
 }
 #bodyy footer {
   font-size: 10px;

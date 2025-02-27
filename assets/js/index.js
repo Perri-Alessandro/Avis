@@ -46,8 +46,8 @@ const updateHeroVisibility = () => {
     }
   };
 
-  preparaText(topElement, "Io Dono Sangue...");
-  preparaText(bottomElement, "Non So Per Chi, Ma So Perchè!");
+  preparaText(topElement, "IO DONO SANGUE...");
+  preparaText(bottomElement, "NON SO PER CHI, MA SO PERCHE'!");
 
   setTimeout(() => {
     digita(topElement, 0, () => {
