@@ -178,7 +178,7 @@ table {
   color: #00355c;
 }
 #bodyy header nav div > div div a.active {
-  color: #ff0403;
+  color: #e40613;
 }
 @media screen and (max-width: 767px) {
   #bodyy header nav div > div div a {
@@ -243,8 +243,8 @@ table {
   }
 }
 #bodyy main > .secondSectHome {
-  border-top: 4px solid rgba(255, 251, 0, 0.177);
-  border-bottom: 4px solid rgba(255, 251, 0, 0.177);
+  border-top: 4px solid rgba(255, 230, 0, 0.177);
+  border-bottom: 4px solid rgba(255, 230, 0, 0.177);
   border-radius: 10%;
   contain: layout;
 }
@@ -370,7 +370,7 @@ table {
 }
 #bodyy footer #arrowUp .bi-arrow-up-square {
   background-color: #0074bd;
-  color: white;
+  color: rgb(255, 230, 0);
   border-radius: 18%;
   border: 4px solid #e40613;
 }

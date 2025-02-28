@@ -42,7 +42,7 @@
           color: #00355c;
         }
         &.active {
-          color: #ff0403;
+          color: #e40613;
         }
         @media screen and (max-width: 767px) {
           font-size: 12px;
@@ -116,8 +116,8 @@
       }
     }
     > .secondSectHome {
-      border-top: 4px solid rgba(255, 251, 0, 0.177);
-      border-bottom: 4px solid rgba(255, 251, 0, 0.177);
+      border-top: 4px solid rgba(255, 230, 0, 0.177);
+      border-bottom: 4px solid rgba(255, 230, 0, 0.177);
       border-radius: 10%;
       contain: layout;
       div > div > a {
@@ -223,7 +223,7 @@
       transition: opacity 0.8s ease-in-out, transform 0.5s ease-in-out;
       .bi-arrow-up-square {
         background-color: #0074bd;
-        color: white;
+        color: rgb(255, 230, 0);
         border-radius: 18%;
         border: 4px solid #e40613;
         @media screen and (max-width: 550px) {
