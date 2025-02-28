@@ -1,5 +1,5 @@
-const mobileHero = document.querySelector("#heroMobile");
-const desktopHero = document.querySelector("#heroDesktop");
+const mobileHero = document.getElementById("heroMobile");
+const desktopHero = document.getElementById("heroDesktop");
 const mobileTopElement = document.querySelector("#heroMobile .heroP1");
 const mobileBottomElement = document.querySelector("#heroMobile .heroP2");
 const desktopTopElement = document.querySelector("#heroDesktop .heroP1");
@@ -87,4 +87,13 @@ navLinks.forEach((link) => {
   } else {
     link.classList.remove("active");
   }
+});
+
+const arrowUp = document.getElementById("arrowUp");
+window.addEventListener("scroll", () => {
+  const scrollPercent =
+    (window.scrollY /
+      (document.documentElement.scrollHeight - window.innerHeight)) *
+    100;
+  arrowUp.classList.toggle("visible", scrollPercent > 17);
 });

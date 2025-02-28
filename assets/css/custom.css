@@ -209,6 +209,9 @@ table {
 #bodyy main {
   flex: 1;
 }
+#bodyy main h1, #bodyy main .h1 {
+  color: #e40613;
+}
 #bodyy main > section:first-child {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #fefefe 6%, #fefefe 94%, rgba(255, 255, 255, 0) 100%);
 }
@@ -243,13 +246,14 @@ table {
   border-top: 4px solid rgba(255, 251, 0, 0.177);
   border-bottom: 4px solid rgba(255, 251, 0, 0.177);
   border-radius: 10%;
+  contain: layout;
 }
 #bodyy main > .secondSectHome div > div > a {
   text-decoration: none;
   color: white;
   text-shadow: 0 0 6px black;
   background-color: #0074bd;
-  border: 3px solid #f10000;
+  border: 3px solid #e40613;
   transform: scale(1);
   transition: all 0.3s ease-in-out;
 }
@@ -300,16 +304,16 @@ table {
     height: 750px;
   }
 }
-#bodyy main .new-bg-danger {
-  background: #f10000;
+#bodyy main section:last-child .new-bg-danger {
+  background: #e40613;
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
 }
-#bodyy main .bg-card1 {
+#bodyy main section:last-child .bg-card1 {
   background-color: #0074bd;
 }
-#bodyy main .bg-card2 {
-  background-color: #003e65;
+#bodyy main section:last-child .bg-card2 {
+  background-color: #003759;
 }
 #bodyy footer {
   font-size: 10px;
@@ -354,6 +358,32 @@ table {
   #bodyy footer div:last-child > div > a {
     font-size: 13px;
   }
+}
+#bodyy footer #arrowUp {
+  position: fixed;
+  right: 1rem;
+  bottom: 1.5rem;
+  opacity: 0;
+  transform: translateY(90px);
+  pointer-events: none;
+  transition: opacity 0.8s ease-in-out, transform 0.5s ease-in-out;
+}
+#bodyy footer #arrowUp .bi-arrow-up-square {
+  background-color: #0074bd;
+  color: white;
+  border-radius: 18%;
+  border: 4px solid #e40613;
+}
+@media screen and (max-width: 550px) {
+  #bodyy footer #arrowUp .bi-arrow-up-square {
+    height: 40px;
+    width: 40px;
+  }
+}
+#bodyy footer #arrowUp.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
 }
 
 /*!
