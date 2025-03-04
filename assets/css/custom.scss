@@ -6,6 +6,9 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  .textAvisBlu {
+    color: #0074bd;
+  }
 
   header {
     nav {
@@ -164,10 +167,13 @@
       }
     }
     section:last-child {
-      .new-bg-danger {
-        background: #e40613;
+      .new-bgCard {
+        background: #ffffff;
         border-top-left-radius: 0.75rem;
         border-top-right-radius: 0.75rem;
+        border-top: 2px solid #e40613;
+        border-right: 2px solid #e40613;
+        border-left: 2px solid #e40613;
       }
       .bg-card1 {
         background-color: #0074bd;

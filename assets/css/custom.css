@@ -145,6 +145,9 @@ table {
   display: flex;
   flex-direction: column;
 }
+#bodyy .textAvisBlu {
+  color: #0074bd;
+}
 #bodyy header nav #goccia {
   max-width: 120px;
   min-width: 95px;
@@ -304,10 +307,13 @@ table {
     height: 750px;
   }
 }
-#bodyy main section:last-child .new-bg-danger {
-  background: #e40613;
+#bodyy main section:last-child .new-bgCard {
+  background: #ffffff;
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
+  border-top: 2px solid #e40613;
+  border-right: 2px solid #e40613;
+  border-left: 2px solid #e40613;
 }
 #bodyy main section:last-child .bg-card1 {
   background-color: #0074bd;
