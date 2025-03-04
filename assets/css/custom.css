@@ -370,14 +370,14 @@ table {
 }
 #bodyy footer #arrowUp .bi-arrow-up-square {
   background-color: #0074bd;
-  color: rgb(255, 230, 0);
+  color: rgb(255, 255, 255);
   border-radius: 18%;
   border: 4px solid #e40613;
 }
 @media screen and (max-width: 550px) {
   #bodyy footer #arrowUp .bi-arrow-up-square {
-    height: 40px;
-    width: 40px;
+    height: 42px;
+    width: 42px;
   }
 }
 #bodyy footer #arrowUp.visible {
