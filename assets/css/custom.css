@@ -279,33 +279,39 @@ table {
   background-color: #004672;
   transform: scale(1.1) rotate(2deg);
 }
-#bodyy main > section:nth-child(4) .carousel-item > img {
+#bodyy main > section:nth-child(4) .carousel-item {
   height: 300px;
 }
 @media screen and (min-width: 350px) {
-  #bodyy main > section:nth-child(4) .carousel-item > img {
+  #bodyy main > section:nth-child(4) .carousel-item {
     height: 400px;
   }
 }
 @media screen and (min-width: 570px) {
-  #bodyy main > section:nth-child(4) .carousel-item > img {
+  #bodyy main > section:nth-child(4) .carousel-item {
     height: 550px;
   }
 }
 @media screen and (min-width: 650px) {
-  #bodyy main > section:nth-child(4) .carousel-item > img {
+  #bodyy main > section:nth-child(4) .carousel-item {
     height: 580px;
   }
 }
 @media screen and (min-width: 770px) {
-  #bodyy main > section:nth-child(4) .carousel-item > img {
+  #bodyy main > section:nth-child(4) .carousel-item {
     height: 600px;
   }
 }
 @media screen and (min-width: 800px) {
-  #bodyy main > section:nth-child(4) .carousel-item > img {
+  #bodyy main > section:nth-child(4) .carousel-item {
     height: 750px;
   }
+}
+#bodyy main > section:nth-child(4) .carousel-item > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #bodyy main section:last-child .new-bgCard {
   background: #ffffff;
