@@ -246,38 +246,79 @@ table {
   }
 }
 #bodyy main > .secondSectHome {
-  border-top: 4px solid rgba(255, 230, 0, 0.177);
-  border-bottom: 4px solid rgba(255, 230, 0, 0.177);
-  border-radius: 10%;
   contain: layout;
 }
-#bodyy main > .secondSectHome div > div > a {
+@media screen and (min-width: 380px) {
+  #bodyy main > .secondSectHome {
+    font-size: 120%;
+  }
+}
+#bodyy main > .secondSectHome > div {
+  background-image: linear-gradient(to right, #0074bd, #003759);
+  border: 2px solid rgb(215, 212, 0);
+  box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
+  -webkit-box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
+  -moz-box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
+}
+@media screen and (max-width: 400px) {
+  #bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > h5, #bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > .h5 {
+    font-size: 72%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > h5, #bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > .h5 {
+    font-size: 93%;
+  }
+}
+#bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > ul > li {
+  list-style-type: disc;
+}
+@media screen and (max-width: 400px) {
+  #bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > ul > li {
+    font-size: 68%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > ul > li {
+    font-size: 68%;
+  }
+}
+@media screen and (min-width: 800px) {
+  #bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > ul > li {
+    font-size: 90%;
+  }
+}
+#bodyy main > .secondSectHome > div > div > div > div a {
   text-decoration: none;
   color: white;
   text-shadow: 0 0 6px black;
-  background-color: #0074bd;
-  border: 3px solid #e40613;
+  background-color: #e40613;
+  border: 3px solid rgb(215, 212, 0);
   transform: scale(1);
   transition: all 0.3s ease-in-out;
 }
 @media screen and (max-width: 330px) {
-  #bodyy main > .secondSectHome div > div > a {
+  #bodyy main > .secondSectHome > div > div > div > div a {
     font-size: 65%;
   }
 }
 @media screen and (min-width: 331px) and (max-width: 380px) {
-  #bodyy main > .secondSectHome div > div > a {
+  #bodyy main > .secondSectHome > div > div > div > div a {
     font-size: 75%;
   }
 }
 @media screen and (min-width: 381px) and (max-width: 450px) {
-  #bodyy main > .secondSectHome div > div > a {
+  #bodyy main > .secondSectHome > div > div > div > div a {
     font-size: 85%;
   }
 }
-#bodyy main > .secondSectHome div > div > a:hover {
-  background-color: #004672;
+#bodyy main > .secondSectHome > div > div > div > div a:hover {
+  background-color: #960710;
   transform: scale(1.1) rotate(2deg);
+}
+#bodyy main > .secondSectHome > div > div > div > div .benvenuT {
+  position: absolute;
+  bottom: 0;
 }
 #bodyy main > section:nth-child(4) .carousel-item {
   height: 300px;
@@ -323,9 +364,15 @@ table {
 }
 #bodyy main section:last-child .bg-card1 {
   background-color: #0074bd;
+  box-shadow: 8px 8px 20px 0px rgba(0, 94, 183, 0.6);
+  -webkit-box-shadow: 8px 8px 20px 0px rgba(0, 94, 183, 0.6);
+  -moz-box-shadow: 8px 8px 20px 0px rgba(0, 94, 183, 0.6);
 }
 #bodyy main section:last-child .bg-card2 {
   background-color: #003759;
+  box-shadow: 8px 8px 20px 0px rgba(0, 61, 117, 0.6);
+  -webkit-box-shadow: 8px 8px 20px 0px rgba(0, 61, 117, 0.6);
+  -moz-box-shadow: 8px 8px 20px 0px rgba(0, 61, 117, 0.6);
 }
 #bodyy footer {
   font-size: 10px;

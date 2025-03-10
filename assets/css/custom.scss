@@ -119,30 +119,68 @@
       }
     }
     > .secondSectHome {
-      border-top: 4px solid rgba(255, 230, 0, 0.177);
-      border-bottom: 4px solid rgba(255, 230, 0, 0.177);
-      border-radius: 10%;
       contain: layout;
-      div > div > a {
-        text-decoration: none;
-        color: white;
-        text-shadow: 0 0 6px black;
-        background-color: #0074bd;
-        border: 3px solid #e40613;
-        @media screen and (max-width: 330px) {
-          font-size: 65%;
-        }
-        @media screen and (min-width: 331px) and (max-width: 380px) {
-          font-size: 75%;
-        }
-        @media screen and (min-width: 381px) and (max-width: 450px) {
-          font-size: 85%;
-        }
-        transform: scale(1);
-        transition: all 0.3s ease-in-out;
-        &:hover {
-          background-color: #004672;
-          transform: scale(1.1) rotate(2deg);
+      @media screen and (min-width: 380px) {
+        font-size: 120%;
+      }
+
+      > div {
+        background-image: linear-gradient(to right, #0074bd, #003759);
+        border: 2px solid rgb(215, 212, 0);
+        box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
+        -webkit-box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
+        -moz-box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
+
+        > div > div > div {
+          > div:nth-child(2) {
+            > h5 {
+              @media screen and (max-width: 400px) {
+                font-size: 72%;
+              }
+              @media screen and (max-width: 800px) {
+                font-size: 93%;
+              }
+            }
+
+            > ul > li {
+              list-style-type: disc;
+              @media screen and (max-width: 400px) {
+                font-size: 68%;
+              }
+              @media screen and (max-width: 800px) {
+                font-size: 68%;
+              }
+              @media screen and (min-width: 800px) {
+                font-size: 90%;
+              }
+            }
+          }
+          a {
+            text-decoration: none;
+            color: white;
+            text-shadow: 0 0 6px black;
+            background-color: #e40613;
+            border: 3px solid rgb(215, 212, 0);
+            @media screen and (max-width: 330px) {
+              font-size: 65%;
+            }
+            @media screen and (min-width: 331px) and (max-width: 380px) {
+              font-size: 75%;
+            }
+            @media screen and (min-width: 381px) and (max-width: 450px) {
+              font-size: 85%;
+            }
+            transform: scale(1);
+            transition: all 0.3s ease-in-out;
+            &:hover {
+              background-color: #960710;
+              transform: scale(1.1) rotate(2deg);
+            }
+          }
+          .benvenuT {
+            position: absolute;
+            bottom: 0;
+          }
         }
       }
     }
@@ -182,9 +220,15 @@
       }
       .bg-card1 {
         background-color: #0074bd;
+        box-shadow: 8px 8px 20px 0px rgba(0, 94, 183, 0.6);
+        -webkit-box-shadow: 8px 8px 20px 0px rgba(0, 94, 183, 0.6);
+        -moz-box-shadow: 8px 8px 20px 0px rgba(0, 94, 183, 0.6);
       }
       .bg-card2 {
         background-color: #003759;
+        box-shadow: 8px 8px 20px 0px rgba(0, 61, 117, 0.6);
+        -webkit-box-shadow: 8px 8px 20px 0px rgba(0, 61, 117, 0.6);
+        -moz-box-shadow: 8px 8px 20px 0px rgba(0, 61, 117, 0.6);
       }
     }
   }
