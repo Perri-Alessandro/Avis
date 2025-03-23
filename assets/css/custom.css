@@ -268,6 +268,26 @@ table {
   -webkit-box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
   -moz-box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
 }
+#bodyy main > .secondSectHome > div .row.position-relative::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 103.2%;
+  background-color: rgba(228, 6, 21, 0.1529411765);
+}
+@media screen and (max-width: 400px) {
+  #bodyy main > .secondSectHome > div > div > div > div > h5, #bodyy main > .secondSectHome > div > div > div > div > .h5 {
+    font-size: 72%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #bodyy main > .secondSectHome > div > div > div > div > h5, #bodyy main > .secondSectHome > div > div > div > div > .h5 {
+    font-size: 93%;
+  }
+}
 @media screen and (max-width: 400px) {
   #bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > h5, #bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > .h5 {
     font-size: 72%;

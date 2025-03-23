@@ -137,7 +137,26 @@
         -webkit-box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
         -moz-box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
 
+        .row.position-relative::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 2px;
+          height: 103.2%;
+          background-color: #e4061527;
+        }
+
         > div > div > div {
+          > h5 {
+            @media screen and (max-width: 400px) {
+              font-size: 72%;
+            }
+            @media screen and (max-width: 800px) {
+              font-size: 93%;
+            }
+          }
           > div:nth-child(2) {
             > h5 {
               @media screen and (max-width: 400px) {
