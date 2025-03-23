@@ -253,22 +253,22 @@ table {
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 85%, rgba(0, 0, 0, 0) 100%);
   }
 }
-#bodyy main > .secondSectHome {
+#bodyy main > .lastSectHome {
   contain: layout;
 }
 @media screen and (min-width: 380px) {
-  #bodyy main > .secondSectHome {
+  #bodyy main > .lastSectHome {
     font-size: 120%;
   }
 }
-#bodyy main > .secondSectHome > div {
+#bodyy main > .lastSectHome > div {
   background-image: linear-gradient(to right, #0074bd, #003759);
   border: 2px solid #e40613;
   box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
   -webkit-box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
   -moz-box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
 }
-#bodyy main > .secondSectHome > div .row.position-relative::before {
+#bodyy main > .lastSectHome > div .row.position-relative::before {
   content: "";
   position: absolute;
   top: 0;
@@ -279,44 +279,44 @@ table {
   background-color: rgba(228, 6, 21, 0.1529411765);
 }
 @media screen and (max-width: 400px) {
-  #bodyy main > .secondSectHome > div > div > div > div > h5, #bodyy main > .secondSectHome > div > div > div > div > .h5 {
+  #bodyy main > .lastSectHome > div > div > div > div > h5, #bodyy main > .lastSectHome > div > div > div > div > .h5 {
     font-size: 72%;
   }
 }
 @media screen and (max-width: 800px) {
-  #bodyy main > .secondSectHome > div > div > div > div > h5, #bodyy main > .secondSectHome > div > div > div > div > .h5 {
+  #bodyy main > .lastSectHome > div > div > div > div > h5, #bodyy main > .lastSectHome > div > div > div > div > .h5 {
     font-size: 93%;
   }
 }
 @media screen and (max-width: 400px) {
-  #bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > h5, #bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > .h5 {
+  #bodyy main > .lastSectHome > div > div > div > div > div:nth-child(2) > h5, #bodyy main > .lastSectHome > div > div > div > div > div:nth-child(2) > .h5 {
     font-size: 72%;
   }
 }
 @media screen and (max-width: 800px) {
-  #bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > h5, #bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > .h5 {
+  #bodyy main > .lastSectHome > div > div > div > div > div:nth-child(2) > h5, #bodyy main > .lastSectHome > div > div > div > div > div:nth-child(2) > .h5 {
     font-size: 93%;
   }
 }
-#bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > ul > li {
+#bodyy main > .lastSectHome > div > div > div > div > div:nth-child(2) > ul > li {
   list-style-type: disc;
 }
 @media screen and (max-width: 400px) {
-  #bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > ul > li {
+  #bodyy main > .lastSectHome > div > div > div > div > div:nth-child(2) > ul > li {
     font-size: 68%;
   }
 }
 @media screen and (max-width: 800px) {
-  #bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > ul > li {
+  #bodyy main > .lastSectHome > div > div > div > div > div:nth-child(2) > ul > li {
     font-size: 68%;
   }
 }
 @media screen and (min-width: 800px) {
-  #bodyy main > .secondSectHome > div > div > div > div > div:nth-child(2) > ul > li {
+  #bodyy main > .lastSectHome > div > div > div > div > div:nth-child(2) > ul > li {
     font-size: 90%;
   }
 }
-#bodyy main > .secondSectHome > div > div > div > div a {
+#bodyy main > .lastSectHome > div > div > div > div a {
   text-decoration: none;
   color: white;
   text-shadow: 0 0 6px black;
@@ -326,63 +326,63 @@ table {
   transition: all 0.3s ease-in-out;
 }
 @media screen and (max-width: 330px) {
-  #bodyy main > .secondSectHome > div > div > div > div a {
+  #bodyy main > .lastSectHome > div > div > div > div a {
     font-size: 65%;
   }
 }
 @media screen and (min-width: 331px) and (max-width: 380px) {
-  #bodyy main > .secondSectHome > div > div > div > div a {
+  #bodyy main > .lastSectHome > div > div > div > div a {
     font-size: 75%;
   }
 }
 @media screen and (min-width: 381px) and (max-width: 450px) {
-  #bodyy main > .secondSectHome > div > div > div > div a {
+  #bodyy main > .lastSectHome > div > div > div > div a {
     font-size: 85%;
   }
 }
-#bodyy main > .secondSectHome > div > div > div > div a:hover {
+#bodyy main > .lastSectHome > div > div > div > div a:hover {
   background-color: #960710;
   transform: scale(1.1) rotate(2deg);
 }
-#bodyy main > .secondSectHome > div > div > div > div .benvenuT {
+#bodyy main > .lastSectHome > div > div > div > div .benvenuT {
   position: absolute;
   bottom: 0;
 }
-#bodyy main > section:nth-child(4) .carousel-item {
+#bodyy main > section:nth-child(2) .carousel-item {
   height: 300px;
 }
 @media screen and (min-width: 350px) {
-  #bodyy main > section:nth-child(4) .carousel-item {
+  #bodyy main > section:nth-child(2) .carousel-item {
     height: 400px;
   }
 }
 @media screen and (min-width: 570px) {
-  #bodyy main > section:nth-child(4) .carousel-item {
+  #bodyy main > section:nth-child(2) .carousel-item {
     height: 550px;
   }
 }
 @media screen and (min-width: 650px) {
-  #bodyy main > section:nth-child(4) .carousel-item {
+  #bodyy main > section:nth-child(2) .carousel-item {
     height: 580px;
   }
 }
 @media screen and (min-width: 770px) {
-  #bodyy main > section:nth-child(4) .carousel-item {
+  #bodyy main > section:nth-child(2) .carousel-item {
     height: 600px;
   }
 }
 @media screen and (min-width: 800px) {
-  #bodyy main > section:nth-child(4) .carousel-item {
+  #bodyy main > section:nth-child(2) .carousel-item {
     height: 750px;
   }
 }
-#bodyy main > section:nth-child(4) .carousel-item > img {
+#bodyy main > section:nth-child(2) .carousel-item > img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-#bodyy main section:last-child .new-bgCard {
+#bodyy main section:nth-child(4) .new-bgCard {
   background: #e40613;
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
@@ -390,18 +390,18 @@ table {
   border-right: 2px solid #0074bd;
   border-left: 2px solid #0074bd;
 }
-#bodyy main section:last-child .border2 {
+#bodyy main section:nth-child(4) .border2 {
   border-top: 2px solid #003759;
   border-right: 2px solid #003759;
   border-left: 2px solid #003759;
 }
-#bodyy main section:last-child .bg-card1 {
+#bodyy main section:nth-child(4) .bg-card1 {
   background-color: #0074bd;
   box-shadow: 8px 8px 20px 0px rgba(0, 94, 183, 0.6);
   -webkit-box-shadow: 8px 8px 20px 0px rgba(0, 94, 183, 0.6);
   -moz-box-shadow: 8px 8px 20px 0px rgba(0, 94, 183, 0.6);
 }
-#bodyy main section:last-child .bg-card2 {
+#bodyy main section:nth-child(4) .bg-card2 {
   background-color: #003759;
   box-shadow: 8px 8px 20px 0px rgba(0, 61, 117, 0.6);
   -webkit-box-shadow: 8px 8px 20px 0px rgba(0, 61, 117, 0.6);

@@ -124,7 +124,7 @@
         }
       }
     }
-    > .secondSectHome {
+    > .lastSectHome {
       contain: layout;
       @media screen and (min-width: 380px) {
         font-size: 120%;
@@ -209,7 +209,7 @@
         }
       }
     }
-    > section:nth-child(4) {
+    > section:nth-child(2) {
       .carousel-item {
         height: 300px;
         @media screen and (min-width: 350px) {
@@ -234,7 +234,7 @@
         }
       }
     }
-    section:last-child {
+    section:nth-child(4) {
       .new-bgCard {
         background: #e40613;
         border-top-left-radius: 0.75rem;
