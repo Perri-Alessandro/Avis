@@ -148,6 +148,9 @@ table {
 #bodyy .textAvisBlu {
   color: #0074bd;
 }
+#bodyy .textAvisRed {
+  color: #e40613;
+}
 #bodyy header nav #goccia {
   max-width: 120px;
   min-width: 95px;
@@ -228,7 +231,7 @@ table {
 }
 #bodyy main > section:first-child div.hero {
   background: url("../images/hero_section.webp");
-  height: 26vh;
+  height: 28vh;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -236,6 +239,11 @@ table {
 @media screen and (min-width: 400px) {
   #bodyy main > section:first-child div.hero {
     height: 35vh;
+  }
+}
+@media screen and (min-width: 851px) {
+  #bodyy main > section:first-child div.hero {
+    height: 40vh;
   }
 }
 @media screen and (min-width: 851px) {
@@ -255,7 +263,7 @@ table {
 }
 #bodyy main > .secondSectHome > div {
   background-image: linear-gradient(to right, #0074bd, #003759);
-  border: 2px solid rgb(215, 212, 0);
+  border: 2px solid #e40613;
   box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
   -webkit-box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
   -moz-box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
@@ -293,7 +301,7 @@ table {
   color: white;
   text-shadow: 0 0 6px black;
   background-color: #e40613;
-  border: 3px solid rgb(215, 212, 0);
+  border: 3px solid #09a1ff;
   transform: scale(1);
   transition: all 0.3s ease-in-out;
 }
@@ -355,12 +363,17 @@ table {
      object-fit: cover;
 }
 #bodyy main section:last-child .new-bgCard {
-  background: #ffffff;
+  background: #e40613;
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
-  border-top: 2px solid #e40613;
-  border-right: 2px solid #e40613;
-  border-left: 2px solid #e40613;
+  border-top: 2px solid #0074bd;
+  border-right: 2px solid #0074bd;
+  border-left: 2px solid #0074bd;
+}
+#bodyy main section:last-child .border2 {
+  border-top: 2px solid #003759;
+  border-right: 2px solid #003759;
+  border-left: 2px solid #003759;
 }
 #bodyy main section:last-child .bg-card1 {
   background-color: #0074bd;
@@ -431,7 +444,7 @@ table {
   background-color: #0074bd;
   color: rgb(255, 255, 255);
   border-radius: 18%;
-  border: 4px solid #e40613;
+  border: 4px solid #0074bd;
 }
 @media screen and (max-width: 550px) {
   #bodyy footer #arrowUp .bi-arrow-up-square {

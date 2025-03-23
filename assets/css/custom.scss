@@ -9,6 +9,9 @@
   .textAvisBlu {
     color: #0074bd;
   }
+  .textAvisRed {
+    color: #e40613;
+  }
 
   header {
     nav {
@@ -92,9 +95,12 @@
       }
       div.hero {
         background: url("../images/hero_section.webp");
-        height: 26vh;
+        height: 28vh;
         @media screen and (min-width: 400px) {
           height: 35vh;
+        }
+        @media screen and (min-width: 851px) {
+          height: 40vh;
         }
         background-repeat: no-repeat;
         background-size: contain;
@@ -126,7 +132,7 @@
 
       > div {
         background-image: linear-gradient(to right, #0074bd, #003759);
-        border: 2px solid rgb(215, 212, 0);
+        border: 2px solid #e40613;
         box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
         -webkit-box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
         -moz-box-shadow: 8px 8px 16px 1px rgba(0, 108, 208, 0.499);
@@ -160,7 +166,7 @@
             color: white;
             text-shadow: 0 0 6px black;
             background-color: #e40613;
-            border: 3px solid rgb(215, 212, 0);
+            border: 3px solid #09a1ff;
             @media screen and (max-width: 330px) {
               font-size: 65%;
             }
@@ -211,12 +217,17 @@
     }
     section:last-child {
       .new-bgCard {
-        background: #ffffff;
+        background: #e40613;
         border-top-left-radius: 0.75rem;
         border-top-right-radius: 0.75rem;
-        border-top: 2px solid #e40613;
-        border-right: 2px solid #e40613;
-        border-left: 2px solid #e40613;
+        border-top: 2px solid #0074bd;
+        border-right: 2px solid #0074bd;
+        border-left: 2px solid #0074bd;
+      }
+      .border2 {
+        border-top: 2px solid #003759;
+        border-right: 2px solid #003759;
+        border-left: 2px solid #003759;
       }
       .bg-card1 {
         background-color: #0074bd;
@@ -280,7 +291,7 @@
         background-color: #0074bd;
         color: rgb(255, 255, 255);
         border-radius: 18%;
-        border: 4px solid #e40613;
+        border: 4px solid #0074bd;
         @media screen and (max-width: 550px) {
           height: 42px;
           width: 42px;
